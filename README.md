@@ -5,3 +5,5 @@
 2. Put your dead time
 3. To output the point result, press "Stop".
 4. This program outputs a csv file.
+
+To understand more, check the example.py.
