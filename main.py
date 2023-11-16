@@ -24,7 +24,7 @@ result_list = np.zeros(len(original_list))
 count = 1
 while True:
     user_input = input("[No."+str(count)+"] Student ID: ")
-    if user_input == "Yamasaki":
+    if user_input == "Stop":
         save_time = datetime.datetime.now()
         np.savetxt('final_attend'+'.csv', result_list, delimiter=',')
         print(result_list)
